@@ -7,7 +7,7 @@ var peopleConstructor = function(name, age, gender) {
     }
 
 }
-var p1 = new peopleConstructor("Raj", "33", "Male"); // "Raj, 33, Male"
-var p2 = new peopleConstructor("Rose", "33", "Female"); // "Rose, 33, Female"
-p1.peoplePrint();
-p2.peoplePrint();
+var p1 = new peopleConstructor("Raj", "33", "Male"); 
+var p2 = new peopleConstructor("Rose", "33", "Female");
+p1.peoplePrint(); // "Raj, 33, Male"
+p2.peoplePrint(); // "Rose, 33, Female"
